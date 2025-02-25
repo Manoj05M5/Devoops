@@ -11,14 +11,14 @@ git 'https://github.com/Manoj05M5/Devoops.git'
 stage('build')
 {
 steps{
-sh 'javac hello.java'
+sh 'javac first.java'
 }
 }
 stage('run')
 {
 steps
 {
-sh 'java hello'
+sh 'java first'
 }
 }
 }
